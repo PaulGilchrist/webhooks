@@ -1,0 +1,6 @@
+{
+    "env": {
+        "port": 4567,
+        "secret": "c984a37c4083a5add4ca905e34542643eace096a"
+    }
+}
