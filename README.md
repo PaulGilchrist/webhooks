@@ -11,4 +11,4 @@
 ruby -rsecurerandom -e 'puts SecureRandom.hex(20)'
 ```
 
-[nodemon](https://nodemon.io) can optinally be used to simulate environment variables
+[nodemon](https://nodemon.io) can optionally be used to simulate environment variables
