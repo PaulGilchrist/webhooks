@@ -1,8 +1,9 @@
 
 "use strict";
-const http = require('http');
-const crypto = require('crypto');
-const args = require('minimist')(process.argv.slice(2)); // Get arguments by name rather than by index
+import minimist from 'minimist';
+import * as crypto from 'crypto';
+import * as http from 'http';
+const args = minimist(process.argv.slice(2)); // Get arguments by name rather than by index
 
 // Configuration
 const PORT = args["port"] || process.env.port || "4567"; // default port is for local testing only and has to match what was used with ngrok
